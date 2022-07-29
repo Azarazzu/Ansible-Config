@@ -1,4 +1,4 @@
-# Connecting ServiceNow and Ansible Automation Platform (AAP)
+# ##Connecting ServiceNow and Ansible Automation Platform (AAP)
 
 ## Sections
 [ServiceNow/AAP Integration Instructions using Rest Messages](https://github.com/shadowman-lab/Ansible-Config/tree/master/SNOW#servicenowaap-integration-instructions-using-rest-messages)
