@@ -1,6 +1,8 @@
 ---
 - include_tasks: patch_linux.yml
-  when: os is match("*")
+  when:
+    - ansible_os_family == "RedHat" 
+  # os is match("*")
 
 - include_tasks: patch_windows.yml
   when: os is match("windows.*") or os is match("2016.*")
