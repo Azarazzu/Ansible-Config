@@ -1,6 +1,9 @@
 ---
 - name: Patch Servers
-  hosts: all
+  hosts: redhat-servers
+  remote_user: root
+  become: yes
+  become_method: sudo
 
   roles:
     - shadowman_patching
