@@ -1,6 +1,6 @@
 ---
 - name: Patch RHEL Servers
-  hosts: all
+  hosts: redhad-servers
 
   roles:
     - shadowman_patching
